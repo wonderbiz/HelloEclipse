@@ -25,4 +25,9 @@ public class Maths {
 	{
 		return (_num1 * _num2);
 	}
+
+	public int divide()
+	{
+		return (_num1 / _num2);
+	}
 }
