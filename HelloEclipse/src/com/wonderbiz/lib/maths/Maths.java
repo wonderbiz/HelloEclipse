@@ -20,4 +20,9 @@ public class Maths {
 	{
 		return (_num1 - _num2);
 	}
+
+	public int multiply()
+	{
+		return (_num1 * _num2);
+	}
 }
