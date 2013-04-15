@@ -5,11 +5,27 @@ import junit.framework.TestCase;
 public class MathsTest extends TestCase {
 
 	public final void testAdd() {
-		assertTrue(true);
+		
+		Maths myMaths = new Maths(101, 2);
+		
+		assertTrue(103 == myMaths.add());
 	}
 
 	public final void testSubtract() {
-		fail("Not yet implemented");
+		Maths myMaths = new Maths(101, 2);
+		
+		assertTrue(99 == myMaths.subtract());
 	}
 
+	public final void testMultiply() {
+		Maths myMaths = new Maths(101, 2);
+		
+		assertTrue(202 == myMaths.multiply());
+	}
+
+	public final void testDivide() {
+		Maths myMaths = new Maths(101, 2);
+		
+		assertTrue(51 == myMaths.divide());
+	}
 }
