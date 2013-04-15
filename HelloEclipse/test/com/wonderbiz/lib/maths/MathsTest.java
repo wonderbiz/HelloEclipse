@@ -26,6 +26,6 @@ public class MathsTest extends TestCase {
 	public final void testDivide() {
 		Maths myMaths = new Maths(101, 2);
 		
-		assertTrue(51 == myMaths.divide());
+		assertTrue(50 == myMaths.divide());
 	}
 }
